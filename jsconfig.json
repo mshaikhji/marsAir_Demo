@@ -1,0 +1,13 @@
+{
+    "include": ["node_modules/cypress", "cypress/**/*.js", "cypress/**/*"],
+    "compilerOptions": {
+      "checkJs": true,
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["cypress/*"]
+      },
+      "types": ["cypress"],
+      "typeRoots": ["cypress/types"]
+    }
+  }
+  

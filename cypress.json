@@ -1,0 +1,31 @@
+{
+  "$schema": "https://on.cypress.io/cypress.schema.json",
+  "projectId": "zaapi",
+  "fileServerFolder": ".",
+  "fixturesFolder": "./cypress/fixtures",
+  "integrationFolder": "./cypress/integration",
+  "supportFile": "./cypress/support/index",
+  "capture": "viewport",
+  "viewportWidth": 1280,
+  "viewportHeight": 695,
+  "reporter": "./node_modules/mochawesome",
+  "reporterOptions": {
+    "reportDir": "report",
+    "overwrite": false,
+    "html": false,
+    "json": true,
+    "timestamp": "mmddyyyy_HHMMss"
+  },
+  "retries": {
+    "runMode": 2
+  },
+  "chromeWebSecurity": false,
+  "pageLoadTimeout": 60000,
+  "defaultCommandTimeout": 20000,
+  "env": {
+    "type": "actual",
+    "failSilently": false,
+    "retriesInDescribeBlock": 2
+  },
+  "numTestsKeptInMemory": 2
+}
