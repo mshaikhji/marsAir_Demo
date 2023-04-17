@@ -4,6 +4,7 @@ End to End Tests written in Cypress with JavaScript
 
 ## Page objects
 SearchPage.js - Contains all search related actions to be performed on the search feature. marsAir_Demo/cypress/support/pageObjects/SearchPage.js
+
 SearchResultsPage.js - Contains all search result page related actions and assertions. marsAir_Demo/cypress/support/pageObjects/SearchResultsPage.js
 
 ### Scenarios:
