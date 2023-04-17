@@ -1,5 +1,5 @@
 {
-  "name": "zaapi",
+  "name": "marsair",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,12 +9,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^9.7.0",
     "mochawesome": "^6.2.2"
   },
   "devDependencies": {
     "@4tw/cypress-drag-drop": "^2.2.3",
+    "cypress": "^9.7.0",
     "cypress-drag-drop": "^1.1.1",
+    "cypress-xpath": "^2.0.1",
     "eslint": "^8.7.0",
     "eslint-plugin-cypress": "^2.12.1",
     "ts-loader": "^6.2.2",
